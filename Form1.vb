@@ -4,6 +4,10 @@ Public Class Form1
 
     Dim classes() As String = {"Alchemist", "Armorer", "Blacksmith", "Carpenter", "Culinarian", "Goldsmith", "Leatherworker", " Weaver"} ' Delcaring Classes 
     Dim level() As String = {"1-10", "11-20", "21-30", "31-40"} 'Declaring Jobs
+    Dim Path As String = "C:\Users\Jeff\Documents\Visual Studio 2015\Projects\ffxiv crafter\ffxiv crafter\My Project"
+    Dim fs As New FileStream(Path, FileMode.Open, FileAccess.Read)
+
+
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ' Declarations 
@@ -45,6 +49,9 @@ Public Class Form1
     End Sub
 
     Private Sub lstRecipe_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lstRecipe.SelectedIndexChanged
+
+
+
 
     End Sub
 End Class
