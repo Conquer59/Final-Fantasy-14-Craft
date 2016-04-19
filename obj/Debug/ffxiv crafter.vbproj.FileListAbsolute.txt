@@ -1,0 +1,11 @@
+c:\users\jeff\documents\visual studio 2015\Projects\ffxiv crafter\ffxiv crafter\bin\Debug\ffxiv crafter.exe.config
+C:\Users\Jeff\documents\visual studio 2015\Projects\ffxiv crafter\ffxiv crafter\bin\Debug\ffxiv crafter.exe
+C:\Users\Jeff\documents\visual studio 2015\Projects\ffxiv crafter\ffxiv crafter\bin\Debug\ffxiv crafter.pdb
+C:\Users\Jeff\documents\visual studio 2015\Projects\ffxiv crafter\ffxiv crafter\bin\Debug\ffxiv crafter.xml
+C:\Users\Jeff\documents\visual studio 2015\Projects\ffxiv crafter\ffxiv crafter\obj\Debug\ffxiv crafter.vbprojResolveAssemblyReference.cache
+C:\Users\Jeff\documents\visual studio 2015\Projects\ffxiv crafter\ffxiv crafter\obj\Debug\ffxiv_crafter.Form1.resources
+C:\Users\Jeff\documents\visual studio 2015\Projects\ffxiv crafter\ffxiv crafter\obj\Debug\ffxiv_crafter.Resources.resources
+C:\Users\Jeff\documents\visual studio 2015\Projects\ffxiv crafter\ffxiv crafter\obj\Debug\ffxiv crafter.vbproj.GenerateResource.Cache
+C:\Users\Jeff\documents\visual studio 2015\Projects\ffxiv crafter\ffxiv crafter\obj\Debug\ffxiv crafter.exe
+C:\Users\Jeff\documents\visual studio 2015\Projects\ffxiv crafter\ffxiv crafter\obj\Debug\ffxiv crafter.xml
+C:\Users\Jeff\documents\visual studio 2015\Projects\ffxiv crafter\ffxiv crafter\obj\Debug\ffxiv crafter.pdb
