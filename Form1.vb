@@ -10,7 +10,6 @@ Public Class Form1
 
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        ' Declarations 
 
 
         For Each job As String In classes
@@ -20,7 +19,7 @@ Public Class Form1
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
-        Me.Close()
+        Me.Close() ' closes the program
     End Sub
 
     Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
@@ -45,6 +44,8 @@ Public Class Form1
 
             End If
         End If
+
+
 
     End Sub
 
