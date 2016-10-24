@@ -5,7 +5,7 @@ Public Class Form1
     Dim classes() As String = {"Alchemist", "Armorer", "Blacksmith", "Carpenter", "Culinarian", "Goldsmith", "Leatherworker", " Weaver"} ' Delcaring Classes 
     Dim level() As String = {"1-10", "11-20", "21-30", "31-40", "41-50", "51-60"} 'delcaring levels as a string in a group 
     Dim Path As String = "C:\Users\Jeff\Documents\Visual Studio 2015\Projects\ffxiv crafter\ffxiv crafter\My Project"
-    Dim fs As New FileStream(Path, FileMode.Open, FileAccess.Read)
+    ' Dim fs As New FileStream(Path, FileMode.Open, FileAccess.Read)
 
 
 
