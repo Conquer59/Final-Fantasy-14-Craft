@@ -1,12 +1,8 @@
-﻿Imports System.IO
-Public Class Form1
+﻿Public Class Form1
 
 
-    Dim classes() As String = {"Alchemist", "Armorer", "Blacksmith", "Carpenter", "Culinarian", "Goldsmith", "Leatherworker", " Weaver"} ' Delcaring Classes 
-    Dim level() As String = {"1-10", "11-20", "21-30", "31-40", "41-50", "51-60"} 'delcaring levels as a string in a group 
-    Dim Path As String = "C:\Users\Jeff\Documents\Visual Studio 2015\Projects\ffxiv crafter\ffxiv crafter\My Project"
-    ' Dim fs As New FileStream(Path, FileMode.Open, FileAccess.Read)
-
+    Dim classes() As String = {"Alchemist", "Armorer", "Blacksmith", "Carpenter", "Culinarian", "Goldsmith", "Leatherworker", "Weaver"} ' Delcaring Classes 
+    Dim level() As String = {"1-10", "11-20", "21-30", "31-40", "41-50", "51-60"} 'declaring levels as a string in a group 
 
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -44,9 +40,6 @@ Public Class Form1
 
             End If
         End If
-
-
-
     End Sub
 
     Private Sub lstRecipe_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lstRecipe.SelectedIndexChanged
@@ -54,5 +47,19 @@ Public Class Form1
 
 
 
+    End Sub
+
+    Private Sub lstLevel_SelectedIndexChanged(sender As Object, e As EventArgs) Handles lstLevel.SelectedIndexChanged
+        lstRecipe.Items.Clear()
+        If lstJobs.SelectedIndex = 0 Then
+            If lstLevel.SelectedIndex = 0 Then
+                Dim stringReader() As String = IO.File.ReadAllLines("C:\Users\Jeff\Documents\Visual Studio 2015\Projects\ffxiv crafter\ffxiv crafter\My Project\AlcLVL1-11.txt")
+                lstRecipe.Items.AddRange(stringReader)
+
+
+            End If
+
+
+        End If
     End Sub
 End Class
