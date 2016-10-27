@@ -1,6 +1,4 @@
 ﻿Public Class Form1
-
-
     Dim classes() As String = {"Alchemist", "Armorer", "Blacksmith", "Carpenter", "Culinarian", "Goldsmith", "Leatherworker", "Weaver"} ' Delcaring Classes 
     Dim level() As String = {"1-10", "11-20", "21-30", "31-40", "41-50", "51-60"} 'declaring levels as a string in a group 
 
@@ -55,11 +53,13 @@
             If lstLevel.SelectedIndex = 0 Then
                 Dim stringReader() As String = IO.File.ReadAllLines("C:\Users\Jeff\Documents\Visual Studio 2015\Projects\ffxiv crafter\ffxiv crafter\My Project\AlcLVL1-11.txt")
                 lstRecipe.Items.AddRange(stringReader)
-
+            End If
+            If lstLevel.SelectedIndex = 1 Then
+                Dim stringReader() As String = IO.File.ReadAllLines("C:\Users\Jeff\Documents\Visual Studio 2015\Projects\ffxiv crafter\ffxiv crafter\My Project\AlcLVL12-21.txt")
+                lstRecipe.Items.AddRange(stringReader)
 
             End If
-
-
         End If
+
     End Sub
 End Class
