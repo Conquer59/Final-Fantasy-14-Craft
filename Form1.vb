@@ -1,6 +1,6 @@
 ﻿Public Class Form1
     Dim classes() As String = {"Alchemist", "Armorer", "Blacksmith", "Carpenter", "Culinarian", "Goldsmith", "Leatherworker", "Weaver"} ' Delcaring Classes 
-    Dim level() As String = {"1-10", "11-20", "21-30", "31-40", "41-50", "51-60"} 'declaring levels as a string in a group 
+    Dim level() As String = {"1-10", "11-20", "21-30", "31-40", "41-50", "51-60", "61-70"} 'declaring levels as a string in a group 
 
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -56,6 +56,11 @@
             End If
             If lstLevel.SelectedIndex = 1 Then
                 Dim stringReader() As String = IO.File.ReadAllLines("C:\Users\Jeff\Documents\Visual Studio 2015\Projects\ffxiv crafter\ffxiv crafter\My Project\AlcLVL12-21.txt")
+                lstRecipe.Items.AddRange(stringReader)
+
+            End If
+                  If lstLevel.SelectedIndex = 2 Then
+                Dim stringReader() As String = IO.File.ReadAllLines("C:\Users\Jeff\Documents\Visual Studio 2015\Projects\ffxiv crafter\ffxiv crafter\My Project\AlcLVL22-31.txt")
                 lstRecipe.Items.AddRange(stringReader)
 
             End If
