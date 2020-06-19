@@ -1,6 +1,6 @@
 ﻿Public Class Form1
     Dim classes() As String = {"Alchemist", "Armorer", "Blacksmith", "Carpenter", "Culinarian", "Goldsmith", "Leatherworker", "Weaver"} ' Delcaring Classes 
-    Dim level() As String = {"1-10", "11-20", "21-30", "31-40", "41-50", "51-60", "61-70"} 'declaring levels as a string in a group 
+    Dim level() As String = {"1-10", "11-20", "21-30", "31-40", "41-50", "51-60", "61-70", "71-80"} 'declaring levels as a string in a group 
 
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
